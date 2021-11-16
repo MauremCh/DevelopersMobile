@@ -12,6 +12,8 @@
     <string name="text_action_settings">Configuracion</string>
     <string name="text_action_logout">Cerrar sesion</string>
     <string name="prueba_git">Logout</string>
+    <string name="prueba_git2">Logout2</string>
+
 
 
 </resources>

@@ -23,25 +23,25 @@ class MainActivity2 : AppCompatActivity() {
     }
 
     fun onLogin(botonLogin: View) {
-        if(edtUsername.text.toString().equals("josearias@gmail.com") && edtPassword.text.toString().equals("1234")){
+        if (edtUsername.text.toString().equals("josearias@gmail.com") && edtPassword.text.toString()
+                .equals("1234")
+        ) {
             val intento = Intent(this, MainActivity2::class.java)
             intento.putExtra("Username", edtUsername.text.toString())
             startActivity(intento)
         }
         //else{
-            //var dialog = AlertDialog.Builder(this)
-                //.setTitle(R.string.text_error)
-               //.setMessage(R.string.text_error_message)
-                //.create()
-                //.show()
-       // }
+        //var dialog = AlertDialog.Builder(this)
+        //.setTitle(R.string.text_error)
+        //.setMessage(R.string.text_error_message)
+        //.create()
+        //.show()
+        // }
 
     }
+
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_main_activity, menu)
         return super.onCreateOptionsMenu(menu)
     }
-
-
-
 }
