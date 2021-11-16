@@ -11,6 +11,7 @@
     <string name="text_action_search">Buscar</string>
     <string name="text_action_settings">Configuracion</string>
     <string name="text_action_logout">Cerrar sesion</string>
+    <string name="prueba_git">Logout</string>
 
 
 </resources>
