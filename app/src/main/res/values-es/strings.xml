@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Almacen CortinApp</string>
+    <string name="text_codigo">Codigo de Venta</string>
+    <string name="text_fecha">Saldo actual</string>
+    <string name="text_abono">Valor abonado</string>
+    <string name="text_saldo">Fecha de venta</string>
+    <string name="text_registro">REGISTRO DE ABONOS</string>
+    <string name="text_username">Nombre de usuario</string>
+    <string name="text_password">Contraseña</string>
+    <string name="hint_password">Tu contraseña</string>
+    <string name="text_action_search">Buscar</string>
+    <string name="text_action_settings">Configuracion</string>
+    <string name="text_action_logout">Cerrar sesion</string>
+
+
+</resources>
