@@ -11,7 +11,7 @@
         android:id="@+id/my_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="?attr/colorOnSecondary"
+        android:background="?attr/colorOnPrimary"
         android:elevation="4dp"
         android:minHeight="?attr/actionBarSize"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
@@ -75,7 +75,7 @@
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/edtventa"
+            android:id="@+id/edtcodarticulo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#bdbdbd"
@@ -93,7 +93,7 @@
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/edtFdeventa"
+            android:id="@+id/edtcolor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#bdbdbd"
@@ -111,7 +111,7 @@
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/edtvalabono"
+            android:id="@+id/edtvalormc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#bdbdbd"
@@ -129,11 +129,18 @@
             android:textSize="20sp" />
 
         <EditText
-            android:id="@+id/edtfecha"
+            android:id="@+id/edtarea"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#bdbdbd"
             android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_uno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/BotonSiguiente"
+            android:textSize="24sp" />
 
     </LinearLayout>
 </LinearLayout>

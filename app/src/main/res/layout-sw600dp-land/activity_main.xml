@@ -13,6 +13,7 @@
         android:layout_margin="16dp"
         android:layout_weight="1"
         android:gravity="center"
+        android:background="#757575"
         android:orientation="vertical">
 
         <TextView
@@ -64,7 +65,7 @@
             android:textSize="60sp" />
 
         <EditText
-            android:id="@+id/edtventa"
+            android:id="@+id/edtcodarticulo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="60sp" />
@@ -80,7 +81,7 @@
             android:textSize="60sp" />
 
         <EditText
-            android:id="@+id/edtFdeventa"
+            android:id="@+id/edtcolor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="60sp" />
@@ -96,7 +97,7 @@
             android:textSize="60sp" />
 
         <EditText
-            android:id="@+id/edtvalabono"
+            android:id="@+id/edtvalormc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="60sp" />
@@ -113,7 +114,7 @@
             android:textSize="60sp" />
 
         <EditText
-            android:id="@+id/edtfecha"
+            android:id="@+id/edtarea"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="60sp" />

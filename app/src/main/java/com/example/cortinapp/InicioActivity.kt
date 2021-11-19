@@ -4,26 +4,27 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
-import android.view.MenuItem
-import android.widget.Button
-import android.widget.TextView
+import android.widget.EditText
+import android.view.View
+import androidx.appcompat.app.AlertDialog
 import android.widget.Toast
+import android.content.DialogInterface
+import android.view.MenuItem
 
-class MainActivity : AppCompatActivity() {
+
+class InicioActivity : AppCompatActivity() {
+    private lateinit var edtUsername: EditText
+    private lateinit var edtPassword: EditText
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
         setSupportActionBar(findViewById(R.id.my_toolbar))
 
-        val boton1=findViewById<Button>(R.id.btn_uno)
-        boton1.setOnClickListener {
-            val lanzar = Intent(this, RegistroActivity::class.java)
-            startActivity(lanzar)
-        }
+        edtUsername = findViewById(R.id.edtUsername)
+        edtPassword = findViewById(R.id.edtPassword)
 
     }
-
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_main_activity, menu)
@@ -51,6 +52,21 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    fun onLogin(botonLogin: View) {
+        if(edtUsername.text.toString().equals("josearias@gmail.com") && edtPassword.text.toString().equals("1234")){
+            val intento = Intent(this, VentasActivity::class.java)
+            intento.putExtra("Username", edtUsername.text.toString())
+            startActivity(intento)
+        }
+        else{
+            var dialog = AlertDialog.Builder(this)
+                .setTitle(R.string.text_error)
+                .setMessage(R.string.text_error_message)
+                .create()
+                .show()
+        }
+
+    }
 
 
 }

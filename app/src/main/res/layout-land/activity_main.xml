@@ -64,7 +64,7 @@
             android:textSize="16sp" />
 
         <EditText
-            android:id="@+id/edtventa"
+            android:id="@+id/edtcodarticulo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="8sp" />
@@ -80,7 +80,7 @@
             android:textSize="16sp" />
 
         <EditText
-            android:id="@+id/edtFdeventa"
+            android:id="@+id/edtcolor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="8sp" />
@@ -96,7 +96,7 @@
             android:textSize="16sp" />
 
         <EditText
-            android:id="@+id/edtvalabono"
+            android:id="@+id/edtvalormc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="8sp" />
@@ -112,7 +112,7 @@
             android:textSize="16sp" />
 
         <EditText
-            android:id="@+id/edtfecha"
+            android:id="@+id/edtarea"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="8sp" />

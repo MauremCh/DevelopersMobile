@@ -6,24 +6,24 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Button
-import android.widget.TextView
 import android.widget.Toast
 
-class MainActivity : AppCompatActivity() {
+class ArticulosActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_articulos)
 
         setSupportActionBar(findViewById(R.id.my_toolbar))
 
-        val boton1=findViewById<Button>(R.id.btn_uno)
-        boton1.setOnClickListener {
-            val lanzar = Intent(this, RegistroActivity::class.java)
+        val boton5=findViewById<Button>(R.id.btn_uno)
+        boton5.setOnClickListener {
+            val lanzar = Intent(this, MainActivity::class.java)
             startActivity(lanzar)
+
+
         }
 
     }
-
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_main_activity, menu)
@@ -50,7 +50,4 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
-
-
-
 }
