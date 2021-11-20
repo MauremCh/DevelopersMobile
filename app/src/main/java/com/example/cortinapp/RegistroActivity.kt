@@ -15,15 +15,9 @@ class RegistroActivity : AppCompatActivity() {
 
         setSupportActionBar(findViewById(R.id.my_toolbar))
 
-        val boton2=findViewById<Button>(R.id.btn_cuatro)
-        boton2.setOnClickListener {
-            val lanzar = Intent(this, MainActivity::class.java)
-            startActivity(lanzar)
-        }
-
-        val boton3=findViewById<Button>(R.id.btn_cuatro)
-        boton3.setOnClickListener {
-            val lanzar = Intent(this, VentasActivity::class.java)
+        val boton4=findViewById<Button>(R.id.btn_cuatro)
+        boton4.setOnClickListener {
+            val lanzar = Intent(this, ArticulosActivity::class.java)
             startActivity(lanzar)
         }
 

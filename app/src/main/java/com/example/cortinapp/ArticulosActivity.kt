@@ -15,9 +15,9 @@ class ArticulosActivity : AppCompatActivity() {
 
         setSupportActionBar(findViewById(R.id.my_toolbar))
 
-        val boton5=findViewById<Button>(R.id.btn_uno)
+        val boton5=findViewById<Button>(R.id.btn_cinco)
         boton5.setOnClickListener {
-            val lanzar = Intent(this, MainActivity::class.java)
+            val lanzar = Intent(this, LoginActivity::class.java)
             startActivity(lanzar)
 
 

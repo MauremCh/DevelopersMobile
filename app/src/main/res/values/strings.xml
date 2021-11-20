@@ -21,6 +21,7 @@
     <string name="tv1">Primer Activity</string>
     <string name="BotonSiguiente">Siguiente</string>
     <string name="BotonVolver">Volver</string>
+    <string name="botonLogin">Login</string>
     <string name="BotonVolveralinicio">Volver Al Inicio</string>
     <string name="text_error">Error</string>
     <string name="text_error_message">Invalid user name or password</string>
@@ -42,7 +43,8 @@
     <string name="text_colorarticulo">Item Color</string>
     <string name="text_valormetrocuadrado">Value per square meter</string>
     <string name="text_registroarticulo">Registro de Articulos</string>
-
+    <string name="hint">email@domain.com</string>
+    <string name="login">LOGIN</string>
 
 
 </resources>

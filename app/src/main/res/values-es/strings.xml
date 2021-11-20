@@ -12,6 +12,7 @@
     <string name="text_action_settings">Configuracion</string>
     <string name="text_action_logout">Cerrar sesion</string>
     <string name="prueba_git">Logout</string>
+    <string name="botonLogin">Login</string>
 
     <string name="text_identificacion">Numero de Identificacion</string>
     <string name="text_nombre">Nombres</string>
@@ -44,6 +45,8 @@
     <string name="text_codigorticulo">Item code</string>
     <string name="text_colorarticulo">Item Color</string>
     <string name="text_valormetrocuadrado">Value per square meter</string>
+    <string name="hint">email@domain.com</string>
+    <string name="login">LOGIN</string>
 
 
 
