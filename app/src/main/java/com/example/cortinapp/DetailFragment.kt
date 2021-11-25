@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -34,7 +35,18 @@ class DetailFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_detail, container, false)
+        val fragmento: View = inflater.inflate(R.layout.fragment_detail, container, false)
+        val article = requireArguments().getString("articulo")
+        val day = requireArguments().getString("dia")
+        val price = requireArguments().getString("precio")
+        val textViewArticle: TextView = fragmento.findViewById(R.id.textViewArticle)
+        val textViewDay: TextView = fragmento.findViewById(R.id.textViewDay)
+        val textViewPrice: TextView = fragmento.findViewById(R.id.textViewPrice)
+        textViewArticle.text = article
+        textViewDay.text = day
+        textViewPrice.text = price
+
+        return fragmento
     }
 
     companion object {

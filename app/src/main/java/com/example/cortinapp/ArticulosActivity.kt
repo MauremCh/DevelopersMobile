@@ -12,15 +12,17 @@ class ArticulosActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_articulos)
-
         setSupportActionBar(findViewById(R.id.my_toolbar))
 
         val boton5=findViewById<Button>(R.id.btn_cinco)
         boton5.setOnClickListener {
             val lanzar = Intent(this, LoginActivity::class.java)
             startActivity(lanzar)
-
-
+        }
+        val boton13=findViewById<Button>(R.id.btn_trece)
+        boton13.setOnClickListener {
+            val lanzar = Intent(this, MainActivity2::class.java)
+            startActivity(lanzar)
         }
 
     }
@@ -33,7 +35,8 @@ class ArticulosActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
             R.id.action_search ->{
-                Toast.makeText(this, R.string.text_action_search, Toast.LENGTH_LONG).show()
+                val intento = Intent(this, DrawerActivity::class.java)
+                startActivity(intento)
                 return true
             }
             R.id.action_settings ->{
@@ -41,7 +44,8 @@ class ArticulosActivity : AppCompatActivity() {
                 return true
             }
             R.id.action_logout ->{
-                Toast.makeText(this, R.string.text_action_logout, Toast.LENGTH_LONG).show()
+                val intento = Intent(this, ToDoActivity::class.java)
+                startActivity(intento)
                 return true
             }
             else -> return super.onOptionsItemSelected(item)

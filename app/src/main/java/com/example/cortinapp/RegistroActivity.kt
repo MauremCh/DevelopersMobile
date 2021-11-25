@@ -20,6 +20,12 @@ class RegistroActivity : AppCompatActivity() {
             val lanzar = Intent(this, ArticulosActivity::class.java)
             startActivity(lanzar)
         }
+        val boton12=findViewById<Button>(R.id.btn_doce)
+        boton12.setOnClickListener {
+            val lanzar = Intent(this, MainActivity2::class.java)
+            startActivity(lanzar)
+        }
+
 
     }
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -27,11 +33,11 @@ class RegistroActivity : AppCompatActivity() {
         return super.onCreateOptionsMenu(menu)
     }
 
-
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
             R.id.action_search ->{
-                Toast.makeText(this, R.string.text_action_search, Toast.LENGTH_LONG).show()
+                val intento = Intent(this, DrawerActivity::class.java)
+                startActivity(intento)
                 return true
             }
             R.id.action_settings ->{
@@ -39,7 +45,8 @@ class RegistroActivity : AppCompatActivity() {
                 return true
             }
             R.id.action_logout ->{
-                Toast.makeText(this, R.string.text_action_logout, Toast.LENGTH_LONG).show()
+                val intento = Intent(this, ToDoActivity::class.java)
+                startActivity(intento)
                 return true
             }
             else -> return super.onOptionsItemSelected(item)

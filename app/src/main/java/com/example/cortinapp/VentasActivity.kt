@@ -15,9 +15,14 @@ class VentasActivity : AppCompatActivity() {
 
         setSupportActionBar(findViewById(R.id.my_toolbar))
 
-        val boton4=findViewById<Button>(R.id.btn_cuatro)
-        boton4.setOnClickListener {
+        val boton5=findViewById<Button>(R.id.btn_cinco)
+        boton5.setOnClickListener {
             val lanzar = Intent(this, MainActivity::class.java)
+            startActivity(lanzar)
+        }
+        val boton10=findViewById<Button>(R.id.btn_diez)
+        boton10.setOnClickListener {
+            val lanzar = Intent(this, MainActivity2::class.java)
             startActivity(lanzar)
         }
     }
@@ -26,11 +31,11 @@ class VentasActivity : AppCompatActivity() {
         return super.onCreateOptionsMenu(menu)
     }
 
-
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
             R.id.action_search ->{
-                Toast.makeText(this, R.string.text_action_search, Toast.LENGTH_LONG).show()
+                val intento = Intent(this, DrawerActivity::class.java)
+                startActivity(intento)
                 return true
             }
             R.id.action_settings ->{
@@ -38,7 +43,8 @@ class VentasActivity : AppCompatActivity() {
                 return true
             }
             R.id.action_logout ->{
-                Toast.makeText(this, R.string.text_action_logout, Toast.LENGTH_LONG).show()
+                val intento = Intent(this, ToDoActivity::class.java)
+                startActivity(intento)
                 return true
             }
             else -> return super.onOptionsItemSelected(item)

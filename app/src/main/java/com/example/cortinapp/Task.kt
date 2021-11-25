@@ -1,4 +1,3 @@
 package com.example.cortinapp
 
-class Task {
-}
+data class Task ( val article: String, val day: String, val price: String)

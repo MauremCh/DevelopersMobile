@@ -56,9 +56,6 @@
         android:layout_margin="16dp"
         android:orientation="vertical">
 
-
-
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -191,6 +188,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/BotonSiguiente"
+                android:textSize="24sp"/>
+
+            <Button
+                android:id="@+id/btn_doce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_menu"
                 android:textSize="24sp"/>
 
 

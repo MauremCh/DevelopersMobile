@@ -295,10 +295,16 @@
 
 
                 <Button
-                    android:id="@+id/btn_cuatro"
+                    android:id="@+id/btn_cinco"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/BotonSiguiente"
+                    android:textSize="24sp"/>
+                <Button
+                    android:id="@+id/btn_diez"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_menu"
                     android:textSize="24sp"/>
 
 

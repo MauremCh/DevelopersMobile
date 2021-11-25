@@ -64,83 +64,102 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textSize="25sp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#757575"
-            android:backgroundTint="#BCAAA4"
-            android:text="@string/text_codigo"
-            android:textColor="@color/black"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textSize="20sp" />
-
-        <EditText
-            android:id="@+id/edtcodarticulo"
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#bdbdbd"
-            android:textSize="20sp" />
+            android:layout_height="wrap_content">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:background="#BCAAA4"
-            android:backgroundTint="#BCAAA4"
-            android:text="@string/text_fecha"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#757575"
+                    android:backgroundTint="#BCAAA4"
+                    android:text="@string/text_codigo"
+                    android:textColor="@color/black"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="20sp" />
 
-        <EditText
-            android:id="@+id/edtcolor"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#bdbdbd"
-            android:textSize="20sp" />
+                <EditText
+                    android:id="@+id/edtcodarticulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#bdbdbd"
+                    android:textSize="20sp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:background="#BCAAA4"
-            android:backgroundTint="#BCAAA4"
-            android:text="@string/text_abono"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="#BCAAA4"
+                    android:backgroundTint="#BCAAA4"
+                    android:text="@string/text_fecha"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
 
-        <EditText
-            android:id="@+id/edtvalormc"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#bdbdbd"
-            android:textSize="20sp" />
+                <EditText
+                    android:id="@+id/edtcolor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#bdbdbd"
+                    android:textSize="20sp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:background="#BCAAA4"
-            android:backgroundTint="#BCAAA4"
-            android:text="@string/text_saldo"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textColor="@color/black"
-            android:textSize="20sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="#BCAAA4"
+                    android:backgroundTint="#BCAAA4"
+                    android:text="@string/text_abono"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
 
-        <EditText
-            android:id="@+id/edtarea"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#bdbdbd"
-            android:textSize="20sp" />
+                <EditText
+                    android:id="@+id/edtvalormc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#bdbdbd"
+                    android:textSize="20sp" />
 
-        <Button
-            android:id="@+id/btn_uno"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/BotonSiguiente"
-            android:textSize="24sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="#BCAAA4"
+                    android:backgroundTint="#BCAAA4"
+                    android:text="@string/text_saldo"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/edtarea"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#bdbdbd"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btn_uno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/BotonSiguiente"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/btn_once"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text_menu"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+        </ScrollView>
 
     </LinearLayout>
 </LinearLayout>
