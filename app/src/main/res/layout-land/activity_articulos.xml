@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".ArticulosActivity">
+
 
     <ScrollView
         android:layout_width="match_parent"
@@ -14,7 +16,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/my_toolbar"
@@ -30,77 +32,72 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="horizontal">
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_margin="16dp"
                     android:background="#757575"
                     android:gravity="center"
-                    android:orientation="horizontal">
+                    android:orientation="vertical">
+
 
                     <TextView
                         android:id="@+id/textView"
-                        android:layout_width="150dp"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-
                         android:layout_weight="2"
-
                         android:fontFamily="sans-serif-smallcaps"
                         android:gravity="center"
                         android:text="@string/app_name"
                         android:textColor="@color/black"
-                        android:textSize="34sp" />
+                        android:textSize="24sp" />
 
                     <ImageView
                         android:id="@+id/imageView"
-                        android:layout_width="250dp"
-                        android:layout_height="250dp"
-
-                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="6"
                         android:outlineAmbientShadowColor="@color/black"
                         app:srcCompat="@drawable/cortinapp" />
-
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="16dp"
-                    android:layout_marginBottom="10dp"
                     android:orientation="vertical">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
                         android:background="#757575"
                         android:backgroundTint="#757575"
                         android:gravity="center"
-                        android:text="@string/text_registro"
+                        android:text="@string/text_registroarticulo"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                         android:textColor="@color/brown_400"
-                        android:textSize="34sp" />
+                        android:textSize="25sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
                         android:background="#757575"
                         android:backgroundTint="#BCAAA4"
-                        android:text="@string/text_codigo"
+                        android:text="@string/text_codigorticulo"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                         android:textColor="@color/black"
-                        android:textSize="34sp" />
+                        android:textSize="20sp" />
 
                     <EditText
                         android:id="@+id/edtcodarticulo"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
                         android:background="#bdbdbd"
-                        android:textSize="34sp" />
+                        android:textSize="20sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -108,61 +105,55 @@
                         android:layout_marginBottom="10dp"
                         android:background="#BCAAA4"
                         android:backgroundTint="#BCAAA4"
-                        android:text="Fecha de venta"
+                        android:text="@string/text_colorarticulo"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                         android:textColor="@color/black"
-                        android:textSize="34sp" />
+                        android:textSize="20sp" />
 
                     <EditText
                         android:id="@+id/edtcolor"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
                         android:background="#bdbdbd"
-                        android:textSize="34sp" />
+                        android:textSize="20sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
                         android:background="#BCAAA4"
                         android:backgroundTint="#BCAAA4"
-                        android:text="Valor abonado"
+                        android:text="@string/text_valormetrocuadrado"
                         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                         android:textColor="@color/black"
-                        android:textSize="34sp" />
+                        android:textSize="20sp" />
 
                     <EditText
                         android:id="@+id/edtvalormc"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
                         android:background="#bdbdbd"
-                        android:textSize="34sp" />
+                        android:textSize="20sp" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:background="#BCAAA4"
-                        android:backgroundTint="#BCAAA4"
-                        android:text="Saldo actual"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-                        android:textColor="@color/black"
-                        android:textSize="34sp" />
 
-                    <EditText
-                        android:id="@+id/edtarea"
+                    <Button
+                        android:id="@+id/btn_cinco"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginBottom="10dp"
-                        android:background="#bdbdbd"
-                        android:textSize="34sp" />
+                        android:layout_marginTop="10dp"
+                        android:text="@string/BotonVolveralinicio"
+                        android:textSize="24sp" />
 
                 </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
 
+            </LinearLayout>
+
+        </LinearLayout>
     </ScrollView>
 
 </LinearLayout>
+
+
+
+
