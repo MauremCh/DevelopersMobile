@@ -4,7 +4,7 @@
     <string name="text_fecha">Date of sale</string>
     <string name="text_abono">Amount paid</string>
     <string name="text_saldo">Current balance</string>
-    <string name="text_registro">SUBSCRIBE REGISTRATION</string>
+    <string name="text_registro">Subscribe Registration</string>
     <string name="text_username">Username</string>
     <string name="text_password">Password</string>
     <string name="hint_password">Your password</string>
@@ -20,10 +20,10 @@
     <string name="text_correo">Email</string>
     <string name="text_registroven">Sellers Registration</string>
     <string name="tv1">Primer Activity</string>
-    <string name="BotonSiguiente">Siguiente</string>
-    <string name="BotonVolver">Volver</string>
+    <string name="BotonSiguiente">Next</string>
+    <string name="BotonVolver">Back</string>
     <string name="botonLogin">Login</string>
-    <string name="BotonVolveralinicio">Volver Al Inicio</string>
+    <string name="BotonVolveralinicio">Back to the start</string>
     <string name="text_error">Error</string>
     <string name="text_error_message">Invalid user name or password</string>
     <string name="botonAbono">Go to Subscriptions</string>
@@ -47,9 +47,9 @@
     <string name="text_codigorticulo">Item code</string>
     <string name="text_colorarticulo">Item Color</string>
     <string name="text_valormetrocuadrado">Value per square meter</string>
-    <string name="text_registroarticulo">Registro de Articulos</string>
+    <string name="text_registroarticulo">Articles Registry</string>
     <string name="hint">email@domain.com</string>
-    <string name="login">LOGIN</string>
+    <string name="login">Login</string>
     <string name="registro_ventas">Register Sales</string>
     <string name="registro_vendedor">Register Seller</string>
     <string name="registro_abonos">Register Subscriptions</string>
