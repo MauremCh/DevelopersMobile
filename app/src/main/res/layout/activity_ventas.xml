@@ -67,6 +67,7 @@
             android:gravity="center"
             android:textColor="@color/brown_400"
             android:text="@string/text_registroventa"
+            android:layout_marginTop="10dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textSize="25sp" />
         <ScrollView
@@ -84,6 +85,7 @@
                     android:background="#757575"
                     android:backgroundTint="#BCAAA4"
                     android:text="@string/text_fechaventa"
+                    android:layout_marginTop="10dp"
                     android:textColor="@color/black"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                     android:textSize="20sp" />
@@ -93,12 +95,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#bdbdbd"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:layout_marginTop="10dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="10dp"
                     android:background="#BCAAA4"
                     android:backgroundTint="#BCAAA4"
                     android:text="@string/text_ancho"
@@ -111,12 +114,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#bdbdbd"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:layout_marginTop="10dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="10dp"
                     android:background="#BCAAA4"
                     android:backgroundTint="#BCAAA4"
                     android:text="@string/text_alto"
@@ -127,6 +131,7 @@
                 <EditText
                     android:id="@+id/edtvalormc"
                     android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
                     android:layout_height="wrap_content"
                     android:background="#bdbdbd"
                     android:textSize="20sp" />
@@ -134,16 +139,17 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
                     android:background="#BCAAA4"
                     android:backgroundTint="#BCAAA4"
                     android:text="@string/text_area"
+                    android:layout_marginTop="10dp"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
                 <EditText
                     android:id="@+id/edtarea"
+                    android:layout_marginTop="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#bdbdbd"
@@ -152,9 +158,9 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
                     android:background="#BCAAA4"
                     android:backgroundTint="#BCAAA4"
+                    android:layout_marginTop="10dp"
                     android:text="@string/text_precio"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                     android:textColor="@color/black"
@@ -163,6 +169,7 @@
                 <EditText
                     android:id="@+id/edtUsername"
                     android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
                     android:layout_height="wrap_content"
                     android:background="#bdbdbd"
                     android:textSize="20sp" />
@@ -170,7 +177,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="10dp"
                     android:background="#BCAAA4"
                     android:backgroundTint="#BCAAA4"
                     android:text="@string/text_cuotasemanal"
@@ -181,6 +188,7 @@
                 <EditText
                     android:id="@+id/edtcuotasemanl"
                     android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
                     android:layout_height="wrap_content"
                     android:background="#bdbdbd"
                     android:textSize="20sp" />
@@ -188,7 +196,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="10dp"
                     android:background="#BCAAA4"
                     android:backgroundTint="#BCAAA4"
                     android:text="@string/text_saldocliente"
@@ -201,12 +209,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#bdbdbd"
+                    android:layout_marginTop="10dp"
                     android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="10dp"
                     android:background="#BCAAA4"
                     android:backgroundTint="#BCAAA4"
                     android:text="@string/text_cantidadcuotas"
@@ -218,13 +227,14 @@
                     android:id="@+id/edtcantidadcuota"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
                     android:background="#bdbdbd"
                     android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="10dp"
                     android:background="#BCAAA4"
                     android:backgroundTint="#BCAAA4"
                     android:text="@string/text_cuotaactual"
@@ -236,13 +246,14 @@
                     android:id="@+id/edtcuotaactual"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
                     android:background="#bdbdbd"
                     android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="10dp"
                     android:background="#BCAAA4"
                     android:backgroundTint="#BCAAA4"
                     android:text="@string/text_documentocliente"
@@ -254,13 +265,14 @@
                     android:id="@+id/edtdocumentocli"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
                     android:background="#bdbdbd"
                     android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="10dp"
                     android:background="#BCAAA4"
                     android:backgroundTint="#BCAAA4"
                     android:text="@string/text_documentovendedor"
@@ -272,13 +284,14 @@
                     android:id="@+id/edtdocumentoven"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
                     android:background="#bdbdbd"
                     android:textSize="20sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
+                    android:layout_marginTop="10dp"
                     android:background="#BCAAA4"
                     android:backgroundTint="#BCAAA4"
                     android:text="@string/text_id"
@@ -290,6 +303,7 @@
                     android:id="@+id/edtidventa"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
                     android:background="#bdbdbd"
                     android:textSize="20sp" />
 
@@ -299,10 +313,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/BotonSiguiente"
+                    android:layout_marginTop="10dp"
                     android:textSize="24sp"/>
                 <Button
                     android:id="@+id/btn_diez"
                     android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
                     android:layout_height="wrap_content"
                     android:text="@string/text_menu"
                     android:textSize="24sp"/>
