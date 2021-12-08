@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\maure\\Documents\\GitHub\\DevelopersMobile\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-land\\activity_articulos.xml",
+        "source": "C:\\Users\\maure\\Documents\\GitHub\\DevelopersMobile\\app\\src\\main\\res\\layout-land\\activity_articulos.xml"
+    },
+    {
+        "merged": "C:\\Users\\maure\\Documents\\GitHub\\DevelopersMobile\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-land\\activity_main.xml",
+        "source": "C:\\Users\\maure\\Documents\\GitHub\\DevelopersMobile\\app\\src\\main\\res\\layout-land\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\maure\\Documents\\GitHub\\DevelopersMobile\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-land\\activity_login.xml",
+        "source": "C:\\Users\\maure\\Documents\\GitHub\\DevelopersMobile\\app\\src\\main\\res\\layout-land\\activity_login.xml"
+    }
+]
