@@ -10,7 +10,7 @@
     <fragment
         android:id="@+id/nav_todo"
         android:name="com.example.cortinapp.ToDoFragment"
-        android:label="fragment_to_do"
+        android:label="VENTAS"
         tools:layout="@layout/fragment_to_do" >
         <action
             android:id="@+id/action_nav_todo_to_detailFragment"
@@ -19,12 +19,21 @@
     <fragment
         android:id="@+id/nav_about"
         android:name="com.example.cortinapp.AboutFragment"
-        android:label="fragment_about"
+        android:label="ABOUT"
         android:icon="@drawable/ic_menu_camera"
         tools:layout="@layout/fragment_about" />
     <fragment
         android:id="@+id/nav_detail"
         android:name="com.example.cortinapp.DetailFragment"
-        android:label="fragment_detail"
+        android:label="DETALLE DE VENTAS"
         tools:layout="@layout/fragment_detail" />
+    <fragment
+        android:id="@+id/nav_new_task"
+        android:name="com.example.cortinapp.new_task_fragment"
+        android:label="New task"
+        tools:layout="@layout/fragment_new_task_fragment" >
+        <action
+            android:id="@+id/action_nav_new_task_to_nav_todo"
+            app:destination="@id/nav_todo" />
+    </fragment>
 </navigation>

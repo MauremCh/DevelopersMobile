@@ -6,6 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.room.Room
+import com.example.cortinapp.room_database.VentasDatabase
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -36,7 +40,8 @@ class DetailFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val fragmento: View = inflater.inflate(R.layout.fragment_detail, container, false)
-        val article = requireArguments().getString("articulo")
+
+/*        val article = requireArguments().getString("articulo")
         val day = requireArguments().getString("dia")
         val price = requireArguments().getString("precio")
         val textViewArticle: TextView = fragmento.findViewById(R.id.textViewArticle)
@@ -45,8 +50,31 @@ class DetailFragment : Fragment() {
         textViewArticle.text = article
         textViewDay.text = day
         textViewPrice.text = price
+*/
 
         return fragmento
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val textViewNombre: TextView = view.findViewById(R.id.textViewNombre)
+        val textViewPrecio: TextView = view.findViewById(R.id.textViewPrecio)
+        val textViewCuotas: TextView = view.findViewById(R.id.textViewCuotas)
+        val id = requireArguments().getInt("id")
+        val room: VentasDatabase = Room.databaseBuilder(context?.applicationContext!!, VentasDatabase::class.java, "VentasDatabase").build()
+        var VentasDao = room.ventasDao()
+        runBlocking {
+            launch {
+                var result = VentasDao.findById(id)
+                textViewNombre.text = result.Nombre
+                textViewPrecio.text = result.precio
+                textViewCuotas.text = result.cuotas
+
+            }
+        }
+
+
+
     }
 
     companion object {

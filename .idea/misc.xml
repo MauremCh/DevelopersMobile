@@ -28,9 +28,10 @@
         <entry key="..\:/Users/Alejito/Documents/CortinApp/CortinApp/app/src/main/res/layout/activity_main2.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Alejito/Documents/CortinApp/CortinApp/app/src/main/res/layout/activity_menu.xml" value="0.2" />
         <entry key="..\:/Users/Alejito/Documents/CortinApp/CortinApp/app/src/main/res/layout/activity_menuint.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Alejito/Documents/CortinApp/CortinApp/app/src/main/res/layout/activity_new_task.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/Alejito/Documents/CortinApp/CortinApp/app/src/main/res/layout/activity_registro.xml" value="0.25" />
         <entry key="..\:/Users/Alejito/Documents/CortinApp/CortinApp/app/src/main/res/layout/activity_to_do.xml" value="0.25" />
-        <entry key="..\:/Users/Alejito/Documents/CortinApp/CortinApp/app/src/main/res/layout/activity_ventas.xml" value="0.1" />
+        <entry key="..\:/Users/Alejito/Documents/CortinApp/CortinApp/app/src/main/res/layout/activity_ventas.xml" value="0.25" />
         <entry key="..\:/Users/Alejito/Documents/CortinApp/CortinApp/app/src/main/res/layout/app_bar_drawer.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Alejito/Documents/CortinApp/CortinApp/app/src/main/res/layout/content_drawer.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Alejito/Documents/CortinApp/CortinApp/app/src/main/res/layout/fragment_about.xml" value="0.19635416666666666" />
@@ -43,6 +44,23 @@
         <entry key="..\:/Users/Alejito/Documents/CortinApp/CortinApp/app/src/main/res/layout/task_list_items.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/Alejito/Documents/CortinApp/CortinApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.5" />
         <entry key="..\:/Users/Alejito/Documents/CortinApp/CortinApp/app/src/main/res/menu/menu_main_activity.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Alejito/Videos/Nueva carpeta/CortinApp/app/src/main/res/layout/activity_new_task.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Alejito/Videos/Nueva carpeta/CortinApp/app/src/main/res/layout/activity_to_do.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Alejito/Videos/Nueva carpeta/CortinApp/app/src/main/res/layout/activity_ventas.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Alejito/Videos/Nueva carpeta/CortinApp/app/src/main/res/layout/app_bar_drawer.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Alejito/Videos/Nueva carpeta/CortinApp/app/src/main/res/layout/content_drawer.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Alejito/Videos/Nueva carpeta/CortinApp/app/src/main/res/layout/fragment_about.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Alejito/Videos/Nueva carpeta/CortinApp/app/src/main/res/layout/fragment_detail.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Alejito/Videos/Nueva carpeta/CortinApp/app/src/main/res/layout/fragment_gallery.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Alejito/Videos/Nueva carpeta/CortinApp/app/src/main/res/layout/fragment_home.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Alejito/Videos/Nueva carpeta/CortinApp/app/src/main/res/layout/fragment_new_task_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/Alejito/Videos/Nueva carpeta/CortinApp/app/src/main/res/layout/fragment_to_do.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Alejito/Videos/Nueva carpeta/CortinApp/app/src/main/res/layout/fragment_ventas.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/Alejito/Videos/Nueva carpeta/CortinApp/app/src/main/res/layout/nav_header_drawer.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Alejito/Videos/Nueva carpeta/CortinApp/app/src/main/res/layout/task_list_items.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Alejito/Videos/Nueva carpeta/CortinApp/app/src/main/res/menu/activity_main_drawer.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Alejito/Videos/Nueva carpeta/CortinApp/app/src/main/res/menu/drawer.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Alejito/Videos/Nueva carpeta/CortinApp/app/src/main/res/menu/menu_main_activity.xml" value="0.18802083333333333" />
       </map>
     </option>
   </component>

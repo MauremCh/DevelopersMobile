@@ -38,6 +38,7 @@
     <string name="text_documentocliente">Documento del Cliente</string>
     <string name="text_documentovendedor">Documenteo del Vendedor</string>
     <string name="text_id">Id Venta</string>
+    <string name="text_menu1">MENU</string>
     <string name="text_fechaventa">Fecha de Venta</string>
     <string name="text_registroarticulo">Registro de Articulos</string>
     <string name="BotonVolveralinicio">Volver Al Inicio</string>

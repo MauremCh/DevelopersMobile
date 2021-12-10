@@ -24,7 +24,7 @@
 
 
         <TextView
-            android:id="@+id/textViewarticle"
+            android:id="@+id/textViewNombre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
@@ -32,7 +32,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textViewday"
+            android:id="@+id/textViewPrecio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"

@@ -11,11 +11,11 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@mipmap/ic_launcher_round"
+        android:src="@drawable/cortinapp"
         app:srcCompat="@drawable/cortinapp" />
 
     <TextView
-        android:id="@+id/textViewPrice"
+        android:id="@+id/textViewNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -23,18 +23,20 @@
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/textViewArticle"
+        android:id="@+id/textViewPrecio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="TextView"
         android:textSize="20sp" />
 
+
     <TextView
-        android:id="@+id/textViewDay"
+        android:id="@+id/textViewCuotas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="TextView"
         android:textSize="20sp" />
+
 </LinearLayout>

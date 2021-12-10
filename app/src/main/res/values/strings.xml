@@ -43,6 +43,7 @@
     <string name="text_documentocliente">Client Document</string>
     <string name="text_documentovendedor">Selling Document</string>
     <string name="text_id">Id Item</string>
+    <string name="text_menu1">MENU</string>
     <string name="text_fechaventa">Sale Date</string>
     <string name="text_codigorticulo">Item code</string>
     <string name="text_colorarticulo">Item Color</string>

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CortinApp">
         <activity
+            android:name=".NewTaskActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity2"
             android:exported="false" />
         <activity

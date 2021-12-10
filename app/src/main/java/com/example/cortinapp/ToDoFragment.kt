@@ -9,6 +9,10 @@ import android.widget.Button
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.RecyclerView
+import androidx.room.Room
+import com.example.cortinapp.room_database.VentasDatabase
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -61,15 +65,36 @@ class ToDoFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val recyclerTodoList: RecyclerView = view.findViewById(R.id.recyclerTodoList)
         var datos: ArrayList<Task> = ArrayList()
-        datos.add(Task("Cortina Panel Japones", "23/11/2021", "$ 125600"))
-        datos.add(Task("Cortina Veneciana", "24/11/2021", "$ 568300"))
-        datos.add(Task("Cortina de Cadena", "25/11/2021", "$ 198500"))
+        val room: VentasDatabase = Room.databaseBuilder(context?.applicationContext!!, VentasDatabase::class.java, "VentasDatabase").build()
+        var VentasDao = room.ventasDao()
+        runBlocking {
+            launch {
+                var result = VentasDao.getAllTasks()
+                for (Ventas in result){
+                    datos.add(Task(Ventas.id, Ventas.Nombre, Ventas.fecha, Ventas.alto, Ventas.ancho,Ventas.area,
+                        Ventas.precio, Ventas.cuotas, Ventas.documentoCliente, Ventas.documentoVendedor, Ventas.documentoCliente))
+
+                }
+            }
+        }
+
+
+/*
+        datos.add(Task(1, "Venta de Cortinas", "Venta 1", "06/12/21", "564000"))
+        datos.add(Task(2, "Venta de Persianas", "Venta 2", "07/12/21", "725000"))
+        datos.add(Task(3, "Venta de Estores", "Venta 3", "08/12/21", "692000"))
+*/
         var taskAdapter = TaskAdapter(datos){
             val datos = Bundle()
-            datos.putString("articulo", it.article)
-            datos.putString("dia", it.day)
-            datos.putString("precio", it.price)
+            datos.putInt("id", it.id)
+
+
+
+/*            datos.putString("Nombre", it.nombre)
+            datos.putString("Fecha", it.fecha)
+            datos.putString("Precio", it.precio)*/
             Navigation.findNavController(view).navigate(R.id.nav_detail, datos)
+
 
         }
         recyclerTodoList.setHasFixedSize(true)
