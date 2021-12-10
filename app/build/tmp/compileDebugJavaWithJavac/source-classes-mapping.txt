@@ -1,0 +1,57 @@
+com/example/cortinapp/databinding/FragmentToDoBinding.java
+ com.example.cortinapp.databinding.FragmentToDoBinding
+com/example/cortinapp/room_database/VentasDAO_Impl.java
+ com.example.cortinapp.room_database.VentasDAO_Impl
+ com.example.cortinapp.room_database.VentasDAO_Impl$1
+ com.example.cortinapp.room_database.VentasDAO_Impl$2
+ com.example.cortinapp.room_database.VentasDAO_Impl$3
+ com.example.cortinapp.room_database.VentasDAO_Impl$4
+ com.example.cortinapp.room_database.VentasDAO_Impl$5
+ com.example.cortinapp.room_database.VentasDAO_Impl$6
+ com.example.cortinapp.room_database.VentasDAO_Impl$7
+ com.example.cortinapp.room_database.VentasDAO_Impl$8
+com/example/cortinapp/databinding/ActivityVentasBinding.java
+ com.example.cortinapp.databinding.ActivityVentasBinding
+com/example/cortinapp/databinding/ActivityMainBinding.java
+ com.example.cortinapp.databinding.ActivityMainBinding
+com/example/cortinapp/BuildConfig.java
+ com.example.cortinapp.BuildConfig
+com/example/cortinapp/databinding/ActivityLoginBinding.java
+ com.example.cortinapp.databinding.ActivityLoginBinding
+com/example/cortinapp/databinding/FragmentAboutBinding.java
+ com.example.cortinapp.databinding.FragmentAboutBinding
+com/example/cortinapp/databinding/ActivityNewTaskBinding.java
+ com.example.cortinapp.databinding.ActivityNewTaskBinding
+com/example/cortinapp/databinding/ActivityArticulosBinding.java
+ com.example.cortinapp.databinding.ActivityArticulosBinding
+com/example/cortinapp/room_database/VentasDatabase_Impl.java
+ com.example.cortinapp.room_database.VentasDatabase_Impl
+ com.example.cortinapp.room_database.VentasDatabase_Impl$1
+com/example/cortinapp/databinding/FragmentVentasBinding.java
+ com.example.cortinapp.databinding.FragmentVentasBinding
+com/example/cortinapp/databinding/ActivityMain2Binding.java
+ com.example.cortinapp.databinding.ActivityMain2Binding
+com/example/cortinapp/databinding/NavHeaderDrawerBinding.java
+ com.example.cortinapp.databinding.NavHeaderDrawerBinding
+com/example/cortinapp/databinding/FragmentNewTaskFragmentBinding.java
+ com.example.cortinapp.databinding.FragmentNewTaskFragmentBinding
+com/example/cortinapp/databinding/FragmentDetailBinding.java
+ com.example.cortinapp.databinding.FragmentDetailBinding
+com/example/cortinapp/databinding/ActivityDrawerBinding.java
+ com.example.cortinapp.databinding.ActivityDrawerBinding
+com/example/cortinapp/databinding/ContentDrawerBinding.java
+ com.example.cortinapp.databinding.ContentDrawerBinding
+com/example/cortinapp/databinding/TaskListItemsBinding.java
+ com.example.cortinapp.databinding.TaskListItemsBinding
+com/example/cortinapp/databinding/FragmentSlideshowBinding.java
+ com.example.cortinapp.databinding.FragmentSlideshowBinding
+com/example/cortinapp/databinding/ActivityToDoBinding.java
+ com.example.cortinapp.databinding.ActivityToDoBinding
+com/example/cortinapp/databinding/FragmentGalleryBinding.java
+ com.example.cortinapp.databinding.FragmentGalleryBinding
+com/example/cortinapp/databinding/AppBarDrawerBinding.java
+ com.example.cortinapp.databinding.AppBarDrawerBinding
+com/example/cortinapp/databinding/FragmentHomeBinding.java
+ com.example.cortinapp.databinding.FragmentHomeBinding
+com/example/cortinapp/databinding/ActivityRegistroBinding.java
+ com.example.cortinapp.databinding.ActivityRegistroBinding
