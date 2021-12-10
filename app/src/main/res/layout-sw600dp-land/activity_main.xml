@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="897dp"
+        android:layout_margin="16dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="#757575"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:text="Almacen CortinApp"
+            android:textColor="@color/brown_400"
+            android:textSize="80sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="800dp"
+            android:layout_height="500dp"
+            android:outlineAmbientShadowColor="@color/black"
+            app:srcCompat="@drawable/cortinapp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#757575"
+            android:backgroundTint="#757575"
+            android:gravity="center"
+            android:text="REGISTRO DE ABONOS"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/brown_400"
+            android:textSize="60sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#BCAAA4"
+            android:backgroundTint="#BCAAA4"
+            android:text="Codigo de Venta"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/black"
+            android:textSize="60sp" />
+
+        <EditText
+            android:id="@+id/edtcodarticulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="60sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#BCAAA4"
+            android:backgroundTint="#BCAAA4"
+            android:text="Fecha de venta"
+            android:textColor="@color/black"
+            android:textSize="60sp" />
+
+        <EditText
+            android:id="@+id/edtcolor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="60sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#BCAAA4"
+            android:backgroundTint="#BCAAA4"
+            android:text="Valor abonado"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/black"
+            android:textSize="60sp" />
+
+        <EditText
+            android:id="@+id/edtvalormc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="60sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="#BCAAA4"
+            android:backgroundTint="#BCAAA4"
+            android:text="Saldo actual"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/black"
+            android:textSize="60sp" />
+
+        <EditText
+            android:id="@+id/edtarea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="60sp" />
+
+    </LinearLayout>
+</LinearLayout>
